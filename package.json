@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "bench": "node .\\fizzbuzz.bench.js"
+        "bench": "node .\\fizzbuzz.bench.js",
+        "benchInfra": "node .\\infra.bench.js"
     },
     "repository": {
         "type": "git",
