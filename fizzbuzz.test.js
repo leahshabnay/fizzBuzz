@@ -1,12 +1,18 @@
 const fizzbuzz = require("./fizzbuzz.js");
 
 
-const testMEthods = [
+const testMethods = [
     fizzbuzz.obviousSolution,
-    fizzbuzz.twoIfsSolution
+    fizzbuzz.usingDictionary,
+    fizzbuzz.arrayMapAndTwoLoopsSolution,
+    fizzbuzz.shorthandIf,
+    fizzbuzz.selectFromArray,
+    fizzbuzz.arrayMapAndShorthandExpression,
+    fizzbuzz.usingSwitchClause
+
 ];
 
-describe.each(testMEthods)('With params for %s', (methodUnderTest) => {
+describe.each(testMethods)('With params for %s', (methodUnderTest) => {
     it(`${methodUnderTest.name} test`, () => {
         expectBehavior(methodUnderTest);
     });

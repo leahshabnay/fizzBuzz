@@ -8,8 +8,23 @@ const fizzbuzz = require("./fizzbuzz.js");
 suite.add(fizzbuzz.obviousSolution.name, () => {
         expectBehavior(fizzbuzz.obviousSolution);
     })
-    .add(fizzbuzz.twoIfsSolution.name, () => {
-        expectBehavior(fizzbuzz.twoIfsSolution);
+    .add(fizzbuzz.usingDictionary.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
+    })
+    .add(fizzbuzz.arrayMapAndTwoLoopsSolution.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
+    })
+    .add(fizzbuzz.shorthandIf.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
+    })
+    .add(fizzbuzz.selectFromArray.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
+    })
+    .add(fizzbuzz.arrayMapAndShorthandExpression.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
+    })
+    .add(fizzbuzz.usingSwitchClause.name, () => {
+        expectBehavior(fizzbuzz.usingDictionary);
     })
     // add listeners
     .on('cycle', function(event) {
