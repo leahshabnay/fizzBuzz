@@ -1,0 +1,33 @@
+{
+    "name": "fizzbuzz",
+    "version": "0.0.1",
+    "description": "Yet another fizzbuzz example",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "bench": "node .\\fizzbuzz.bench.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hanokhaloni/fizzBuzz.git"
+    },
+    "keywords": [
+        "javascript",
+        "fizz",
+        "buzz",
+        "fizzbuzz"
+    ],
+    "author": "Leah Shabnai",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hanokhaloni/fizzBuzz/issues"
+    },
+    "homepage": "https://github.com/hanokhaloni/fizzBuzz#readme",
+    "devDependencies": {
+        "jest": "^27.4.7"
+    },
+    "dependencies": {
+        "benchmark": "^2.1.4",
+        "microtime": "^3.0.0"
+    }
+}
